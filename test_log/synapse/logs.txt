@@ -1,0 +1,27 @@
+[20:38:16.082] Namespace(model_name='', volume_path='./data/synapse/test_vol_h5_new', dataset='Synapse', num_classes=9, in_chans=1, list_dir='./data/synapse/lists_Synapse', max_iterations=30000, max_epochs=600, batch_size=16, output_dir='test_log/synapse', pretrained_pth='model_pth/synapse/LUCF_Net_Synapse_epo600_bs16_lr0.05_2222/epoch_599.pth', is_savenii=False, n_skip=3, test_save_dir='', deterministic=1, base_lr=0.05, seed=2222, Dataset=<class 'utils.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True)
+[20:38:16.082] 12 test iterations per epoch
+[20:39:44.337] Namespace(model_name='', volume_path='./data/synapse/test_vol_h5_new', dataset='Synapse', num_classes=9, in_chans=1, list_dir='./data/synapse/lists_Synapse', max_iterations=30000, max_epochs=600, batch_size=16, output_dir='test_log/synapse', pretrained_pth='model_pth/synapse/LUCF_Net_Synapse_epo600_bs16_lr0.05_2222/epoch_599.pth', is_savenii=False, n_skip=3, test_save_dir='', deterministic=1, base_lr=0.05, seed=2222, img_size=224, Dataset=<class 'utils.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True)
+[20:39:44.338] 12 test iterations per epoch
+[20:41:41.969] Namespace(model_name='', volume_path='./data/synapse/test_vol_h5_new', dataset='Synapse', num_classes=9, in_chans=1, list_dir='./data/synapse/lists_Synapse', max_iterations=30000, max_epochs=600, batch_size=16, output_dir='test_log/synapse', pretrained_pth='model_pth/synapse/LUCF_Net_Synapse_epo600_bs16_lr0.05_2222/epoch_599.pth', is_savenii=False, n_skip=3, test_save_dir='', deterministic=1, base_lr=0.05, seed=2222, img_size=224, Dataset=<class 'utils.dataset_synapse.Synapse_dataset'>, z_spacing=1, is_pretrain=True)
+[20:41:41.969] 12 test iterations per epoch
+[20:45:17.202] idx 0 case case0008 mean_dice 0.706778 mean_hd95 8.713654, mean_jacard 0.621611 mean_asd 2.621647
+[20:47:17.814] idx 1 case case0022 mean_dice 0.921870 mean_hd95 1.590344, mean_jacard 0.857678 mean_asd 0.570436
+[20:49:36.790] idx 2 case case0038 mean_dice 0.860382 mean_hd95 8.405690, mean_jacard 0.774615 mean_asd 1.947149
+[20:54:12.839] idx 3 case case0036 mean_dice 0.853100 mean_hd95 10.319361, mean_jacard 0.761076 mean_asd 1.869840
+[20:57:41.779] idx 4 case case0032 mean_dice 0.897835 mean_hd95 5.329874, mean_jacard 0.821377 mean_asd 1.126105
+[21:01:03.300] idx 5 case case0002 mean_dice 0.896353 mean_hd95 5.530686, mean_jacard 0.819796 mean_asd 1.135323
+[21:03:23.388] idx 6 case case0029 mean_dice 0.814080 mean_hd95 14.780771, mean_jacard 0.729797 mean_asd 2.548573
+[21:08:18.189] idx 7 case case0003 mean_dice 0.781321 mean_hd95 50.223921, mean_jacard 0.652130 mean_asd 7.981785
+[21:11:52.183] idx 8 case case0001 mean_dice 0.794653 mean_hd95 28.251386, mean_jacard 0.711397 mean_asd 4.069865
+[21:15:14.723] idx 9 case case0004 mean_dice 0.827353 mean_hd95 7.403811, mean_jacard 0.733524 mean_asd 1.709757
+[21:17:11.393] idx 10 case case0025 mean_dice 0.851365 mean_hd95 20.834449, mean_jacard 0.760658 mean_asd 4.303216
+[21:18:59.119] idx 11 case case0035 mean_dice 0.915781 mean_hd95 1.903347, mean_jacard 0.850025 mean_asd 0.560870
+[21:19:00.141] Mean class (1) spleen mean_dice 0.912399 mean_hd95 20.423563, mean_jacard 0.847169 mean_asd 4.235675
+[21:19:00.141] Mean class (2) right kidney mean_dice 0.856065 mean_hd95 10.925441, mean_jacard 0.796434 mean_asd 2.219243
+[21:19:00.141] Mean class (3) left kidney mean_dice 0.880591 mean_hd95 15.477965, mean_jacard 0.818675 mean_asd 2.903049
+[21:19:00.141] Mean class (4) gallbladder mean_dice 0.732343 mean_hd95 15.663821, mean_jacard 0.608952 mean_asd 2.526076
+[21:19:00.141] Mean class (5) pancreas mean_dice 0.667692 mean_hd95 15.233891, mean_jacard 0.520307 mean_asd 2.743508
+[21:19:00.141] Mean class (6) liver mean_dice 0.955253 mean_hd95 11.250298, mean_jacard 0.915052 mean_asd 1.830553
+[21:19:00.141] Mean class (7) stomach mean_dice 0.845788 mean_hd95 15.779780, mean_jacard 0.741166 mean_asd 2.768848
+[21:19:00.141] Mean class (8) aorta mean_dice 0.897116 mean_hd95 4.103438, mean_jacard 0.814701 mean_asd 1.069426
+[21:19:00.141] Testing performance in best val model: mean_dice : 0.843406 mean_hd95 : 13.607274, mean_jacard : 0.757807 mean_asd : 2.537047
