@@ -394,16 +394,5 @@ class LUCF_Net(nn.Module):
 
         return output
 
-if __name__ =="__main__":
-    import torch
-    from thop import profile
-    m = LUCF_Net(in_chns=1,class_num=4)
-    x = torch.rand(1,1,224,224)
-    p1,p2,p3,p4 = m(x)
-    print(p1.shape)
-    print(p2.shape)
-    print(p3.shape)
-    print(p4.shape)
-    flops, params = profile(m, (x,))
-    print('GFLOPs: ', flops/1000000000, 'params: ', params)
+
 
