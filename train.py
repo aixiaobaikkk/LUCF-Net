@@ -176,12 +176,7 @@ def trainer_synapse(args, model, snapshot_path):
             performance = 0.0
 
 
-        # if (best_performance <= performance) and (epoch_num >= 450):
-        #     best_performance = performance
-        #     save_mode_path = os.path.join(snapshot_path, 'best.pth')
-        #     torch.save(model.state_dict(), save_mode_path)
-        #     logging.info("save model to {}".format(save_mode_path))
-
+  
         if (epoch_num + 1) % args.save_interval == 0:
             save_mode_path = os.path.join(snapshot_path, 'epoch_' + str(epoch_num) + '.pth')
             torch.save(model.state_dict(), save_mode_path)
